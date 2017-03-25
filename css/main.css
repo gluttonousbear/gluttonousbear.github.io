@@ -102,3 +102,7 @@
 		a.footer:hover {
 			color:red;
 		}
+		#RSS {
+			height:30px;
+			width:30px;
+		}
