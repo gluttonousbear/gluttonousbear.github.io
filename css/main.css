@@ -65,6 +65,7 @@
 			position:relative;
 			margin:0 auto;
 			width: 720px;
+			max-width: 720px;
 			
 		}
 		
