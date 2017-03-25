@@ -9,9 +9,8 @@ date: 2017-03-25
 * 4 **eggs, Chicken**
 * 1 tsp. **Mustard**
 * 2 tbsp. **Mayonnaise**
----
 ### Spices
 * **Parsley** OR **Chives** for garnish
 * **Salt & Pepper** to taste
----
+
 # Preparation
