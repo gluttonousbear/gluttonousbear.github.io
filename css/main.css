@@ -32,6 +32,9 @@
 		li.sections {
 			float:left;
 		}
+		li.sections:hover {
+			background-color:grey;
+		}
 		
 		a.sections {
 			display:block;
