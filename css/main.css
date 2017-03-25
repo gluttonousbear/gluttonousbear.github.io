@@ -1,5 +1,4 @@
-		
-		
+	
 		
 		html, body {
 		
@@ -17,16 +16,16 @@
 		}
 		
 		#img-header {
-			width:720px;
-			height:405px;
+			width:830px;
+			height:495px;
 		}
 		
 		#img-logo{
 			position:absolute;
-			width:272px;
-			height:89px;
-			top:40%;
-			left:30%;
+			width:250px;
+			height:450px;
+			top:6%;
+			left:80%;
 		}
 		
 		li.sections {
@@ -57,14 +56,15 @@
 		}
 		
 		div.sections {
-			width:720px;
+			width:1080px;
 			
 		}
 		
 		div.content {
 			position:relative;
 			margin:0 auto;
-			width: 720px;
+			width: 1080px;
+			
 		}
 		
 		div.footer {
@@ -73,7 +73,7 @@
 			border:3px solid black;
 			height:50px;
 			margin:0 auto;
-			width:720px;
+			width:1080px;
 			border-left:0;
 			border-right:0;
 			
@@ -84,11 +84,11 @@
 		}
 		li.footer {
 			vertical-align:center;
-			width:200px;
+			width:270px;
 			text-align:center;
 			display:table-cell;
-			padding-top:4px;
-			padding-bottom:4px;
+			padding-top:7px;
+			padding-bottom:7px;
 			
 		}
 		
