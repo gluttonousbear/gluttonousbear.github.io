@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Orso Hypatos, the Allmighty Bear
+title: Orso Hypatos, Gluttonous Bear
 date: 2017-03-25
 ---
 
