@@ -1,3 +1,9 @@
+		
+		
+		
+		html, body {
+		
+		}
 		ul {
 			font-family:Calibri;
 		}
@@ -48,7 +54,49 @@
 		}
 		
 		div.sections {
-			position:absolute;
 			width:720px;
 			
+		}
+		
+		div.content {
+			position:relative;
+			margin:0 auto;
+			width: 720px;
+			
+		}
+		
+		div.footer {
+			display:table;
+			color = white;
+			border:3px solid black;
+			height:50px;
+			margin:0 auto;
+			width:720px;
+			border-left:0;
+			border-right:0;
+			
+		}
+		ul.footer {
+			
+			
+		}
+		li.footer {
+			vertical-align:center;
+			width:200px;
+			text-align:center;
+			display:table-cell;
+			padding-top:7px;
+			padding-bottom:7px;
+			
+		}
+		
+		a.footer {
+			font-size:120%;
+			font-weight:bold;
+			color:black;
+			text-decoration:none;
+			
+		}
+		a.footer:hover {
+			color:red;
 		}
