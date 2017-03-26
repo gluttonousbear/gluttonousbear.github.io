@@ -3,7 +3,12 @@ layout: post
 title: "Hail Satan: Deviled Eggs galore"
 date: 2017-03-25
 ---
-		<div class="content">
+				<body>
+	
+		
+		<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
+
+			<div class="content">
 			<br>
 			
 		<section class="ingredients">
@@ -126,4 +131,10 @@ date: 2017-03-25
 		<section class ="additional-image">
 		</section>
 		</div>
-		<br />
+			<br />
+
+			<!--  REINSTATE LATER : {{ content }} -->
+			<!-- END OF INDIVIDUAL PAGE CONTENT -->
+	
+
+		</body>
