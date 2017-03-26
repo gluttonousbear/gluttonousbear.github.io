@@ -155,8 +155,11 @@
 		}
 		header,
 		section,
-		footer {
+		{
 		  margin: 1% 1.5% 1% 1.5%;
+		}
+		footer {
+			margin:0 auto;
 		}
 		section {
 		  float: left;
