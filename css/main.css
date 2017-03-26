@@ -5,15 +5,13 @@
 		}
 		h1 {
 			font-family: "Trebuchet MS";
-			font-size: 111px;
-			font-style: normal;
-			font-variant: normal;
-			font-weight: 500;
-			line-height: 26.4px;
+			font-size: 150%;
 			display:block;
+			border:1px solid black;
 			border-top:0;
 			border-left:0;
 			border-right:0;
+			
 		}
 		h2 {
 		}
