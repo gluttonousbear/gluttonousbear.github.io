@@ -1,13 +1,31 @@
 	
 		
 		html, body {
-		
-		}
-		ul {
 			font-family:Calibri;
 		}
-		
-		
+		h1 {
+			font-family: "Trebuchet MS";
+			font-size: 24px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 500;
+			line-height: 26.4px;
+			display:block;
+			border-top:0;
+			border-left:0;
+			border-right:0;
+		}
+		h2 {
+		}
+		h3 {
+		}
+		h4 {
+		}
+		h5 {
+		}
+		h6 {
+		}
+
 		#div-header {
 			position:relative;
 			display:table;
@@ -88,7 +106,7 @@
 			text-align:center;
 			display:table-cell;
 			padding-top:7px;
-			padding-bottom:7px;
+			padding-bottom:10px;
 			
 		}
 		
