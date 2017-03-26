@@ -30,6 +30,7 @@
 			padding:2px;
 			font-family: "Trebuchet MS";
 			font-size: 130%;
+			margin-bottom:10px;
 		}
 		h5 {
 			font-family: "Trebuchet MS";
@@ -42,8 +43,12 @@
 		blockquote {
 			line-height:140%;
 		}
-		li {
+		
+		li,ul {
 			list-style-type:none;
+		}
+		ul li {
+			margin-left: 0px;
 		}
 		
 		#div-header {
@@ -55,15 +60,15 @@
 		
 		#img-header {
 			width:830px;
-			height:495px;
+			height:466px;
 		}
 		
 		#img-logo{
 			position:absolute;
-			width:250px;
-			height:450px;
-			top:6%;
-			left:80%;
+			width:270px;
+			height:466px;
+			top:0%;
+			left:77%;
 		}
 		
 		li.sections {
@@ -169,13 +174,20 @@
 		  clear: both;
 		  margin-bottom: 0;
 		}
+		section.ingredients {
+			
+		}
 		section.post-text {
-			width:65%;
+			width:70%;
 			text-align:justify;
+			margin-left:5%
 		}
 		section.full-page-text {
-			width:93%;
+			width:100%;
 			text-align:justify;
+		}
+		section.additional-image {
+			width:100%;
 		}
 		code.ingredients {
 			font-size:100%;
