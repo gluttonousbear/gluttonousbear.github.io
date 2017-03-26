@@ -3,138 +3,122 @@ layout: post
 title: "Hail Satan: Deviled Eggs galore"
 date: 2017-03-25
 ---
-				<body>
-	
-		
-		<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
+			<section class="ingredients">
+		 <code class="ingredients">
+			<ul>
+				<h4>Ingredients</h4>
+				<li>4 <b>eggs, Chicken</b></li>
+				<li>1 tsp. <b>Mustard</b></li>
+				<li>2 tbsp. <b>Mayonnaise</b></li>
+				<h4>Spices</h4>
+				<li><b>Parsley</b> OR <b>Chives</b> for garnish</li>
+				<li><b>Salt and Pepper</b> to taste</li>
+			</ul>
+		</code>
+		<code class="calories">
+			<div id="nutritionfacts">
+				<table width="242" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<td align="center" class="header">Nutrition Values</td>
+						</tr>
+						<tr>
+							<td><div class="serving">Per <span class="highlighted">180.0g</span> Serving Size</div></td>
+						</tr>
+						<tr style="height: 7px">
+							<td bgcolor="#000000"></td>
+						</tr>
+					 
+						<tr>
+							<td>
+								<div class="line">
+								<div class="label">Calories <div class="weight">230</div></div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><div class="line"></div></td>
+						</tr>
+						<tr>
+							<td>
+								<div class="line">
+								<div class="label">Total Fat <div class="weight">6.2g</div></div>
+								</div>
+							</td>
+						</tr>
+									<tr>
+							<td class="indent">
+								<div class="line">
+								<div class="labellight">Saturated Fat <div class="weight">3.5g</div></div>
+								</div>
+							</td>
+						</tr>
+									<tr>
+							<td class="indent">
+								<div class="line">
+								<div class="labellight"><i>Trans</i> Fat <div class="weight">0.0g</div></div>
+								</div>
+							</td>
+					   
+									<tr>
+							<td>
+								<div class="line">
+								<div class="label">Sodium <div class="weight">618mg</div></div>
+								</div>
+							</td>
+						</tr>
+									<tr>
+							<td>
+								<div class="line">
+								<div class="label">Total Carbohydrates <div class="weight">32.2g</div></div>
+								</div>
+							</td>
+						</tr>
+									<tr>
+							<td class="indent">
+								<div class="line">
+								<div class="labellight">Dietary Fiber <div class="weight">5.2g</div></div>
+							</div></td>
+						</tr>
+									<tr>
+							<td class="indent">
+								<div class="line">
+								<div class="labellight">Sugars <div class="weight">3.3g</div></div>
+								</div>
+							</td>
+						</tr>
+									<tr>
+							<td>
+								<div class="line">
+								<div class="label">Protein <div class="weight">11.4g</div>
+								</div>
+							</div></td>
+						</tr>
+						<tr style="height: 7px">
+							<td bgcolor="#000000"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
-			<div class="content">
-			<br>
-			
-		<section class="ingredients">
-			 <code class="ingredients">
-				<ul>
-					<h4>Ingredients</h4>
-					<li>4 <b>eggs, Chicken</b></li>
-					<li>1 tsp. <b>Mustard</b></li>
-					<li>2 tbsp. <b>Mayonnaise</b></li>
-					<h4>Spices</h4>
-					<li><b>Parsley</b> OR <b>Chives</b> for garnish</li>
-					<li><b>Salt and Pepper</b> to taste</li>
-				</ul>
-			</code>
-			<code class="calories">
-				<div id="nutritionfacts">
-					<table width="242" cellspacing="0" cellpadding="0">
-						<tbody>
-							<tr>
-								<td align="center" class="header">Nutrition Values</td>
-							</tr>
-							<tr>
-								<td><div class="serving">Per <span class="highlighted">180.0g</span> Serving Size</div></td>
-							</tr>
-							<tr style="height: 7px">
-								<td bgcolor="#000000"></td>
-							</tr>
-						 
-							<tr>
-								<td>
-									<div class="line">
-									<div class="label">Calories <div class="weight">230</div></div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td><div class="line"></div></td>
-							</tr>
-							<tr>
-								<td>
-									<div class="line">
-									<div class="label">Total Fat <div class="weight">6.2g</div></div>
-									</div>
-								</td>
-							</tr>
-										<tr>
-								<td class="indent">
-									<div class="line">
-									<div class="labellight">Saturated Fat <div class="weight">3.5g</div></div>
-									</div>
-								</td>
-							</tr>
-										<tr>
-								<td class="indent">
-									<div class="line">
-									<div class="labellight"><i>Trans</i> Fat <div class="weight">0.0g</div></div>
-									</div>
-								</td>
-						   
-										<tr>
-								<td>
-									<div class="line">
-									<div class="label">Sodium <div class="weight">618mg</div></div>
-									</div>
-								</td>
-							</tr>
-										<tr>
-								<td>
-									<div class="line">
-									<div class="label">Total Carbohydrates <div class="weight">32.2g</div></div>
-									</div>
-								</td>
-							</tr>
-										<tr>
-								<td class="indent">
-									<div class="line">
-									<div class="labellight">Dietary Fiber <div class="weight">5.2g</div></div>
-								</div></td>
-							</tr>
-										<tr>
-								<td class="indent">
-									<div class="line">
-									<div class="labellight">Sugars <div class="weight">3.3g</div></div>
-									</div>
-								</td>
-							</tr>
-										<tr>
-								<td>
-									<div class="line">
-									<div class="label">Protein <div class="weight">11.4g</div>
-									</div>
-								</div></td>
-							</tr>
-							<tr style="height: 7px">
-								<td bgcolor="#000000"></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+		</code>
+	</section>
 
-			</code>
-		</section>
-
-		<section class="post-text">
-		  <code class ="post-text">
-				<br />
-				Boil eggs until hard. Scare them cold (with tap water). Peel them. Take a spoon, mix the egg yolks with the ingredients, flavor with salt and pepper to taste. 
-				Now the interesting part begins, you either take the poverty approach and use the spoon to but the yolk-mass back into the egg-whites (like I do, unless I have
-				guests), or you use a small plastic bag (e.g. one for freezing things), fill it up and cut a small hole into the corner. Then you squeeze the mass until the eggs look
-				delicious enough to devour them in one sitting. Success.<br /><br />
-				<img src="http://i.imgur.com/572CCd1.jpg" title="source: imgur.com" style="width:100%"/>
-			</code>
-		</section>
-
-		<section class="full-page-text">
-			<code>
-			</code>
-		</section>
-		
-		<section class ="additional-image">
-		</section>
-		</div>
+	<section class="post-text">
+	  <code class ="post-text">
 			<br />
+			Boil eggs until hard. Scare them cold (with tap water). Peel them. Take a spoon, mix the egg yolks with the ingredients, flavor with salt and pepper to taste. 
+			Now the interesting part begins, you either take the poverty approach and use the spoon to but the yolk-mass back into the egg-whites (like I do, unless I have
+			guests), or you use a small plastic bag (e.g. one for freezing things), fill it up and cut a small hole into the corner. Then you squeeze the mass until the eggs look
+			delicious enough to devour them in one sitting. Success.<br /><br />
+			<img src="http://i.imgur.com/572CCd1.jpg" title="source: imgur.com" style="width:100%"/>
+		</code>
+	</section>
 
-			<!--  REINSTATE LATER : {{ content }} -->
-			<!-- END OF INDIVIDUAL PAGE CONTENT -->
+	<section class="full-page-text">
+		<code>
+		</code>
+	</section>
 	
-
-		</body>
+	<section class ="additional-image">
+	</section>
