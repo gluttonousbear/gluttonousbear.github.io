@@ -3,7 +3,7 @@ layout: post
 title: "Hail Satan: Deviled Eggs galore"
 date: 2017-03-25
 ---
-		<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
+
 
 		<div class="content">
 		<br>
