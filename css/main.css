@@ -245,6 +245,7 @@ span.thumbnail-text {
 }
 code.thumbnail {
 	display:block;
+	background-color: #444;
 	border-radius: 10px;
 	width:30%;
 	padding:2%;
