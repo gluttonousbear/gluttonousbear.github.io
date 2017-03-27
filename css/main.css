@@ -238,3 +238,8 @@
 			border:1px dotted grey;
 			padding:2px;
 		}
+		span.thumbnail-text {
+			font-weight:bold;
+			font-size:125%;
+			
+		}
