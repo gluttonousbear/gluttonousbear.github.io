@@ -243,10 +243,16 @@ span.thumbnail-text {
 	font-size:125%;
 
 }
-code.thumbnail {
+section.thumbnail-collection {
+	width:1080px;
+}
+
+section.thumbnail {
+    width:25%;
 	display:block;
 	background-color: #444;
 	border-radius: 10px;
-	width:30%;
-	padding:2%;
+	padding:1%;
+	margin: 2% 2% 2% 2%;
+
 }
