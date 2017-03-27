@@ -157,6 +157,7 @@ code {
   display: block;
   border-radius: 5px;
   color: #00000;
+  background-color:#eed;
   font: 110% "Calibri", Calibri;
   line-height:145%;
   padding: 1% 1%;
@@ -258,6 +259,5 @@ section.thumbnail-collection {
 section.thumbnail {
 	display:block;
 	padding:1%;
-	background-color:#eed;
 	margin: 3% 3% 3% 3%;
 }
