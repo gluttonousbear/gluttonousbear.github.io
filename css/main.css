@@ -157,7 +157,6 @@ code {
   display: block;
   border-radius: 5px;
   color: #00000;
-  background-color:#eed;
   font: 110% "Calibri", Calibri;
   line-height:145%;
   padding: 1% 1%;
@@ -174,6 +173,7 @@ footer {
 section {
   float: left;
   width: 25%;
+  background-color:#eed;
 }
 footer {
   clear: both;
