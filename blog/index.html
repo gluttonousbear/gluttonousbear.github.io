@@ -6,7 +6,7 @@ title: Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}"><img src="http://i.imgur.com/dcCeGAp.jpg" title="source: imgur.com" /></a></li>
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" style="width:360px;height:200px; /></a></li>
 		<p> YOLO </p>
 	  {% endfor %}
 	</ul>
