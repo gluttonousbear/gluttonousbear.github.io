@@ -6,6 +6,8 @@ title: Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" /></a></li>
+	   
+		<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" /></a>
+		<span class="thumbnail-text">{{ post.date | date_to_string }}</span> 
 	  {% endfor %}
 	</ul>
