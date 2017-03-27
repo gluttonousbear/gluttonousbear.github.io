@@ -3,3 +3,17 @@ layout: default
 title: Orso Hypatos, The Gluttonous Bear
 ---
 
+	<h1>{{ page.title }}</h1>
+	
+	<section class="thumbnail-collection">
+		
+	  {% for post in site.posts %}
+	   	<section class="thumbnail">
+			<code>
+				<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" /></a>
+				<span class="thumbnail-text">{{ post.date | date_to_string }} {{ post.title }}</span> 
+			</code>
+		</section>
+	  {% endfor %}
+		
+	</section>
