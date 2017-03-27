@@ -7,11 +7,8 @@ title: Blog
 
 	  {% for post in site.posts %}
 	   	<section class="thumbnail">
-			<code>
-				<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" /></a>
-				<span class="thumbnail-text">{{ post.date | date_to_string }}</span> 
-				<p>>OLO</p>
-			</code>
+			<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" /></a>
+			<span class="thumbnail-text">{{ post.date | date_to_string }} {{ post.title }}</span> 
 		</section>
 	  {% endfor %}
 	</ul>
