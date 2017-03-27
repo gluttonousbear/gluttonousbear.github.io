@@ -96,7 +96,7 @@ ul.sections {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333333;
+	background-color: #333;
 
 }
 
@@ -155,7 +155,6 @@ a.footer:hover {
 
 code {
   display: block;
-  background-color: #fff;
   border-radius: 5px;
   color: #00000;
   font: 110% "Calibri", Calibri;
