@@ -250,7 +250,6 @@ section.thumbnail-collection {
 section.thumbnail {
     width:25%;
 	display:block;
-	background-color: #444;
 	border-radius: 10px;
 	padding:1%;
 	margin: 3% 3% 3% 3%;
