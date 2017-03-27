@@ -258,5 +258,6 @@ section.thumbnail-collection {
 section.thumbnail {
 	display:block;
 	padding:1%;
+	background-color:#eed;
 	margin: 3% 3% 3% 3%;
 }
