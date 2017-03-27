@@ -244,5 +244,8 @@ span.thumbnail-text {
 
 }
 section.thumbnail {
+	display:block;
+	border-radius: 10px;
 	width:30%;
+	padding:2%;
 }
