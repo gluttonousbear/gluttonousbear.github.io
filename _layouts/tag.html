@@ -12,7 +12,7 @@
 
 		<div class="content">
 			{% for post in site.posts %}
-   				{% for paginator.tag in post %}
+   				{% for post.tag %}
 					<p> {{ post.title }} </p>
 				{% endfor %}
 			{% endfor %}
