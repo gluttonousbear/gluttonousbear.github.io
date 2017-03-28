@@ -8,7 +8,7 @@ title: Glorious Gluttony
 	<p>tags: {{ post.tags }}</p><br />
 	<p>category: {{ post.category }}</p><br />
 {% if post.category =="Gluttony" %}
-{<section class="thumbnail">
+{{ <section class="thumbnail">
 			<code>
 				<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" style="width:320px"/></a>
 				<span style="  
@@ -23,6 +23,6 @@ title: Glorious Gluttony
 					width:280px;
 					margin-left:20px;
 					margin-top:-35px;">
-						{{ post.date | date_to_string }} {{ post.title }}</span> }
+						{{ post.date | date_to_string }} {{ post.title }}</span> }}
 	
 {% endfor %}
