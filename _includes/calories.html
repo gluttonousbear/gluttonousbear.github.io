@@ -6,7 +6,7 @@
 									<td align="center" class="header">Nutrition Values</td>
 								</tr>
 								<tr>
-									<td><div class="serving">Per <span class="highlighted">{{ include.weight }}</span> Serving Size</div></td>
+									<td><div class="serving">Per <span class="highlighted">{{ include.weight | default: "n/a" }}</span> Serving Size</div></td>
 								</tr>
 								<tr style="height: 7px">
 									<td bgcolor="#000000"></td>
