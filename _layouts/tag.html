@@ -13,7 +13,7 @@
 		<div class="content">
 			{% for post in site.posts %}
    				{% for tag in post %}
-					<p> {{ tag }} </p>
+					<p> {{ post.tag }} </p>
 				{% endfor %}
 			{% endfor %}
 		</div>
