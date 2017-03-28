@@ -14,7 +14,7 @@
 		{% for post in site.posts %}
 			<p>title: {{ post.title }}</p><br />
 			<p>tags: {{ post.tags }}</p><br />
-				{% for tag in post %}
+				{% for tags in post %}
 					<p>tag: {{ paginator.tag }}</p><br />
 				{% endfor %}
 		{% endfor %}
