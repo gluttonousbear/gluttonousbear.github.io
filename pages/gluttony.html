@@ -3,3 +3,10 @@ layout: default
 title: Glorious Gluttony
 ---
 
+{% for post in site.posts %}
+			<p>title: {{ post.title }}</p><br />
+			<p>tags: {{ post.tags }}</p><br />
+				{% for tags in post %}
+					<p>tag: {{ post.tags }}</p><br />
+				{% endfor %}
+		{% endfor %}
