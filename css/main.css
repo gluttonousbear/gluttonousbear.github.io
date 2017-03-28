@@ -194,7 +194,8 @@ section.ingredients {
 section.post-text {
 	width:70%;
 	text-align:justify;
-	margin-left:5%;
+	margin-left:3%;
+
 	
 }
 section.full-page-text {
@@ -255,6 +256,7 @@ span.thumbnail-text {
 }
 section.thumbnail-collection {
 	width:1080px;
+	margin-left:-2%;
 }
 
 section.thumbnail {
