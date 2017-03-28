@@ -6,7 +6,8 @@ title: Orso Hypatos, The Gluttonous Bear
 	<h1>{{ page.title }}</h1>
 	
 	<section class="thumbnail-collection">
- {% assign array = "1,2,3,4,5" | split: ',' %}
+ 		{% assign intarray = "1,2,3,4,5" | split: ',' %}
+		{% assign chararray = "c,d,e" | split: ',' %}
 		  
 	  {% for post in site.posts %}
 	   	<section class="thumbnail">
@@ -18,7 +19,7 @@ title: Orso Hypatos, The Gluttonous Bear
 					font-size:125%;
 					display:block;
 					color: white;
-					background-color:#{{ array | sample }}{{ array | sample }}c;
+					background-color:#{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }};
 					text-shadow: 1px 1px #000;
 					text-align:center;
 					width:280px;
