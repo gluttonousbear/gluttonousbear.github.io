@@ -15,7 +15,7 @@
 			<p>title: {{ post.title }}</p><br />
 			<p>tags: {{ post.tags }}</p><br />
 				{% for tag in post %}
-					<p>tag: {{ post.tag }}</p><br />
+					<p>tag: {{ paginator.tag }}</p><br />
 				{% endfor %}
 		{% endfor %}
 		</div>
