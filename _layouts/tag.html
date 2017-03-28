@@ -12,7 +12,8 @@
 
 		<div class="content">
 		{% for post in site.posts %}
-   			{{ post.title }}
+			<p>title: {{ post.title }}</p>
+			<p>tag: {{ post.tags }}</p>
 		{% endfor %}
 		</div>
 
