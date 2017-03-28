@@ -11,11 +11,9 @@
 
 
 		<div class="content">
-			{% for post in paginator.posts %}
-   				{% for tag in post %}
-					<p> YOLO SWAG </p>
-				{% endfor %}
-			{% endfor %}
+		{% for post in paginator.posts %}
+    {{ post.title }}
+{% endfor %}
 		</div>
 
 
