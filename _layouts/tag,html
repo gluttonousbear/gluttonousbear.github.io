@@ -11,9 +11,10 @@
 
 
 		<div class="content">
-			{% for post in paginator.posts %}
-    {{ post.title }}
-{% endfor %}
+			{% for post in site.posts %}
+				{% for paginator.tag %}	
+   					{{ post.title }}
+			{% endfor %}
 		</div>
 
 
