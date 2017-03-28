@@ -2,29 +2,36 @@
 layout: default
 title: Glorious Gluttony
 ---
+<h1>{{ page.title }}</h1>
 
-{% for post in site.posts %}
-	<p>title: {{ post.title }}</p><br />
-	<p>tags: {{ post.tags }}</p><br />
-	<p>category: {{ post.category }}</p><br />
-{% if post.category == "Gluttony" %}
-{{ <section class="thumbnail">
-			<code>
-				<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" style="width:320px"/></a>
-				<span style="  
-					position:relative;
-					font-weight:bold;
-					font-size:125%;
-					display:block;
-					color: white;
-					background-color:#{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }};
-					text-shadow: 1px 1px #000;
-					text-align:center;
-					width:280px;
-					margin-left:20px;
-					margin-top:-35px;">
-						{{ post.date | date_to_string }} {{ post.title }}</span> 
-			</code>
-		</section> }}
-{% endif %}
-{% endfor %}
+<section class="thumbnail-collection">
+	{% assign intarray = "1,2,3,4,5" | split: ',' %}
+	{% assign chararray = "c,d,e" | split: ',' %}
+	{% for post in site.posts %}
+		<p>title: {{ post.title }}</p><br />
+		<p>tags: {{ post.tags }}</p><br />
+		<p>category: {{ post.category }}</p><br />
+	{% if post.category == "Gluttony" %}
+	{{ <section class="thumbnail">
+				<code>
+					<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" style="width:320px"/></a>
+					<span style="  
+						position:relative;
+						font-weight:bold;
+						font-size:125%;
+						display:block;
+						color: white;
+						background-color:#{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }};
+						text-shadow: 1px 1px #000;
+						text-align:center;
+						width:280px;
+						margin-left:20px;
+						margin-top:-35px;">
+							{{ post.date | date_to_string }} {{ post.title }}</span> 
+				</code>
+			</section> }}
+	{% endif %}
+	{% endfor %}
+</section>
+
+
