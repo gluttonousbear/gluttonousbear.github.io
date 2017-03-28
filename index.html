@@ -6,7 +6,7 @@ title: Orso Hypatos, The Gluttonous Bear
 	<h1>{{ page.title }}</h1>
 	
 	<section class="thumbnail-collection">
-	  <p>{% assign array = "orange,apple,peach" | split: ',' %}
+ <p>{% assign array = ['1', '2', '3', '4', '5'] %}
 		  {{ array | sample }}</p>
 	  {% for post in site.posts %}
 	   	<section class="thumbnail">
