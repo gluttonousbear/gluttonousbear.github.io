@@ -1,28 +1,8 @@
 
 <!DOCTYPE html>
 	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		
-	
-		<header>
-				<!-- HEADER IMAGE AND BEAR LOGO -->
-			<div id="div-header">
-				<!-- NAVIGATION BAR -->
-					<nav class="sections">
-						<ul class="sections">
-							<li class="sections"><a class="sections" href="/pages/diet.html">Diet</a></li>
-							<li class="sections"><a class="sections" href="/pages/gluttony.html">Gluttony</a></li>
-							<li class="sections"><a class="sections" href="/pages/origin.html">Origin</a></li>
-							<li class="sections"><a class="sections" href="/pages/guests.html">Guest Hall of Fame</a></li>
-							<li class="sections" style=float:right;><a class="sections" href="#search">search</a></li>
-						</ul>
-					</nav>
-			</div>
-		</header>
+		{% include head.html %}
+		{% include header.html %}
 
 
 <div class="content">
@@ -33,14 +13,7 @@
 </div>
 
 
-<footer>
-			 <ul class="footer">
-				<li class="footer"><a class ="footer" href="https://orsohypatos.github.io">Home</a></li>
-				<li class="footer"><a class ="footer" href="/pages/about.html">About</a></li>
-				<li class="footer"><a class ="footer" href="mailto:orsohypatos@protonmail.com">Contact</a></li>
-				<li class="footer"><a class ="footer" href="http://orsohypatos.github.io/blog/atom.xml">RSS <img id="RSS" src="http://i.imgur.com/cBlA7YZ.png" title="RSS Feed" alt="RSS"/></a></li>
-			</ul>
-		</footer>
+{% include footer.html %}
 
 		
 	</html>
