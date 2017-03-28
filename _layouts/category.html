@@ -2,30 +2,20 @@
 	<html>
 		{% include head.html %}
 		<div id="div-header">
-		{% include header.html %}
+
 		{% include nav.html %}
 		</div>
-<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
-	<body>
-
-
-
-		<div class="content">
-		{% for post in site.posts %}
-			<p>title: {{ post.title }}</p><br />
-			<p>tags: {{ post.tags }}</p><br />
-				{% for tags in post %}
-					<p>tag: {{ post.tags }}</p><br />
-				{% endfor %}
-		{% endfor %}
-		</div>
-
-
-
-	</body>
-<!-- END OF INDIVIDUAL PAGE CONTENT -->
-
-		{% include footer.html %}
-
+	
 		
+		
+			<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
+		<body>
+			<div class="content">
+			<br>
+			{{ content }}
+			</div><!-- /.content -->
+			
+		</body>
+			<!-- END OF INDIVIDUAL PAGE CONTENT -->
+		{% include footer.html %}
 	</html>
