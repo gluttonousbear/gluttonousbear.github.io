@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Thin and crunchy Tortilla Pizza"
+date: 2017-03-29
+thumbnail: "/images/2017-03-30-thin-and-crunchy-tortilla-pizza4.jpg"
+tags:
+- pizza
+- high-protein
+- chicken
+- bbq
+category: Diet
+origin: Fusion
+---
+
+
+		<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
+
+			<section class="ingredients">
+				 <code class="ingredients">
+					<h4>Ingredients (1 Serving)</h4>
+          1 large, thick <b>tortilla</b><br />
+					250g <b>chicken</b><br />
+					250g green <b>asparagus</b> or <b>brokkoli</b><br />
+					tsp. <b>olive oil</b><br />
+          100ml <b>tomato sauce</b>
+          2 cloves <b>garlic</b>
+					1/2 <b>medium onion</b><br />
+          25g <b>cheese</b> of your choice
+					<h4>Spices</h4>
+					<b>cayenne</b><br />
+          <b>oregano</b> OR <b>basil</b><br />
+          <b>salt and pepper</b> to taste<br />
+					
+				</code>
+					 <br />
+				{% include calories.html weight="706g" calories="691" fats="22.1g" saturated_fats="" trans_fats="" sodium="709mg" carbs="43.3g" sugar="4.5g" fiber="4.2g" protein="77.7g"%}
+
+
+			</section>
+
+			<section class="post-text">
+			  			  <code class ="post-text">
+				<br />
+				  <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza.jpg" alt="taco pizza" style="width:32.3%"/>
+				  <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza2.jpg" alt="taco pizza" style="width:32.3%"/>
+          <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza3.jpg" alt="taco pizza" style="width:32.3%"/><br />
+				   This is made quickly in 20 minutes and helps very well against short bursts of hunger. The ingredients can vary,
+           I prefer the pizza with some fresh greens and cheddar. There is also a variant without cheese and with sauce 
+           hollondaise instead, but it isn't as ideal for a diet.<br />
+			  <h5>Preparation</h5>
+				  Fry up meat, onions and garlic, spice with cayenne salt and pepper. Cook the asparagus or brokkoli until soft.
+          Spread tomato sauce on tortilla and ass oregano or basil. Top with remaining ingredients and put into the oven
+          on 250° for 5-8 minutes or until brown and crunchy on the bottom. 
+				  <br /><br />
+				  <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza4.jpg" alt="slow cooked chicken picture" style="width:98%"/>
+					
+				</code>
+			</section>
+
+			<section class="full-page-text">
+				<code>
+				</code>
+			</section>
+			
+			<section class ="additional-image">
+			</section>
+		
+		<br />
