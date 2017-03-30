@@ -252,8 +252,8 @@ code.ingredients {
 	padding:2px;
 }
 span.thumbnail-text {
-	padding:1.25%;
-	position:relative;
+	padding:4px;
+	position:absolute;
 	font-weight:bold;
 	font-size:125%;
 	display:block;
@@ -263,7 +263,7 @@ span.thumbnail-text {
 	width:280px;
 	margin-left:20px;
 	margin-top:-35px;
-	margin-bottom:-75px;
+
 }
 section.thumbnail-collection {
 	width:1080px;
@@ -276,5 +276,6 @@ section.thumbnail {
 	margin: 3% 3% 3% 3%;
 }
 a.thumbnail {
+	position:relative;
 	text-decoration:none;
 }
