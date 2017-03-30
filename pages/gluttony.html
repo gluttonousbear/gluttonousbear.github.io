@@ -2,14 +2,16 @@
 layout: category
 title: Glorious Gluttony
 ---
+
 <h1>{{ page.title }}</h1>
-<br />
+
+
 <section class="thumbnail-collection">
 	{% assign intarray = "1,2,3,4,5" | split: ',' %}
 	{% assign chararray = "c,d,e" | split: ',' %}
-	
-	{% for post in site.posts %}
-		{% if post.category == "Gluttony" %}
+
+  {% for post in site.posts %}
+	{% if post.category == "Gluttony" %}
 		<section class="thumbnail">
 			<code>
 				<a class="thumbnail" href="{{ post.url }}"><img src="{{ post.thumbnail }}" alt="thumbnails for posts" style="width:320px"/>
@@ -19,9 +21,11 @@ title: Glorious Gluttony
 					{{ post.title }}</span> 
 			</code>
 		</section>
-		{% endif %}
-	{% endfor %}
+	{% endif %}
+  {% endfor %}
+
 </section>
+
 
 
 
