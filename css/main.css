@@ -163,6 +163,10 @@ a.footer:hover {
 
 code {
   display: block;
+  border-radius: 5px;
+  color: #00000;
+  font: 110% "Calibri", Calibri;
+  line-height:145%;
 
 
 }
@@ -248,15 +252,15 @@ code.ingredients {
 	padding:2px;
 }
 span.thumbnail-text {
-
+  padding:2%;
 }
 section.thumbnail-collection {
 	width:1080px;
-
+	margin-left:-2.5%;
 }
 
 section.thumbnail {
 	display:block;
-
-
+	padding:1%;
+	margin: 3% 3% 3% 3%;
 }
