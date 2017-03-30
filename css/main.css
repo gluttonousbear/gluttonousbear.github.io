@@ -255,14 +255,15 @@ span.thumbnail-text {
 	padding:1.25%;
 	position:relative;
 	font-weight:bold;
-	font-size:95%;
+	font-size:125%;
 	display:block;
 	color: white;
 	text-shadow: 1px 1px #000;
 	text-align:center;
-	width:300px;
+	width:280px;
 	margin-left:20px;
 	margin-top:-35px;
+	margin-bottom:-75px;
 }
 section.thumbnail-collection {
 	width:1080px;
