@@ -4,22 +4,22 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Orso Hypatos, the Allmighty Bear</title>
-	<link href="http://orsohypatos.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://orsohypatos.github.io/blog"/>
+	<title>Orso Hypatos, the Gluttonous Bear</title>
+	<link href="http://gluttonousbear.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://gluttonousbear.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://orsohypatos.github.io/blog</id>
+	<id>http://gluttonousbear.github.io</id>
 	<author>
-		<name>Orso Hypatos</name>
+		<name>Orso Hypatos, the GLuttonous Bear</name>
 		<email>orsohypatos@protonmail.com</email>
 	</author>
 
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://orsohypatos.github.io{{ post.url }}"/>
+			<link href="http://gluttonousbear.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://orsohypatos.github.io{{ post.id }}</id>
+			<id>http://gluttonousbear.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
