@@ -12,23 +12,14 @@ title: Recipes for your Diet
 	{% for post in site.posts %}
 		{% if post.category == "Diet" %}
 		<section class="thumbnail">
-					<code>
-						<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" title="source: imgur.com" style="width:320px"/></a>
-						<span style="  
-							position:relative;
-							font-weight:bold;
-							font-size:125%;
-							display:block;
-							color: white;
-							background-color:#{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }};
-							text-shadow: 1px 1px #000;
-							text-align:center;
-							width:280px;
-							margin-left:20px;
-							margin-top:-35px;">
-								{{ post.title }}</span> 
-					</code>
-				</section> 
+			<code>
+				<a class="thumbnail" href="{{ post.url }}"><img src="{{ post.thumbnail }}" alt="thumbnails for posts" style="width:320px"/>
+					</a>
+				<span class="thumbnail-text" style="  
+						background-color:#{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }};">
+					{{ post.title }}</span> 
+			</code>
+		</section>
 
     
 		{% endif %}
