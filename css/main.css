@@ -179,7 +179,6 @@ footer {
 	margin:0 auto;
 }
 section {
-  float: left;
   width: 25%;
 
 }
@@ -195,19 +194,26 @@ section.post-text {
 	width:70%;
 	text-align:justify;
 	margin-left:3%;
+	  float: left;
 
 	
 }
 section.full-page-text {
 	width:100%;
 	text-align:justify;
+	  float: left;
 	  
 }
 section.additional-image {
 	width:100%;
+	  float: left;
 }
 code.ingredients {
 	font-size:100%;
+	
+}
+section.ingredients {
+	  float: left;
 }
 
 #nutritionfacts { 
@@ -271,7 +277,7 @@ section.thumbnail-collection {
 }
 
 section.thumbnail {
-	display:block;
+	display:inline-block;
 	padding:1%;
 	margin: 3% 3% 3% 3%;
 }
@@ -280,5 +286,5 @@ a.thumbnail {
 	text-decoration:none;
 }
 img.thumbnail {
-	width:122%;
+	width:320px;
 }
