@@ -8,8 +8,10 @@ tags:
 category: Test
 origin: Test
 ---
-
-<script src="/node_modules/chart.js/src/chart.js"></script>
+{% include Chart.js %}
+{% include embed-charts.js %}
+<script src="/node_modules/chart.js/src/chart.js">{% include Chart.js %}
+{% include embed-charts.js %}</script>
 			
 
 <!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
