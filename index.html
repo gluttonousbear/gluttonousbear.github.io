@@ -11,7 +11,9 @@ title: Home of The Gluttonous Bear
 	{% assign chararray = "c,d,e" | split: ',' %}
 
   {% for post in site.posts %}
-	
+	{% if post.category == "Diet" %}
+	<!-- do nothing -->
+	{% else %}
 		<section class="thumbnail">
 			<code>
 				<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts" />
@@ -21,7 +23,7 @@ title: Home of The Gluttonous Bear
 					{{ post.title }}</span> 
 			</code>
 		</section>
-
+	{% endif %}
   {% endfor %}
 
 </section>
