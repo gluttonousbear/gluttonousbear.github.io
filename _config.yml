@@ -3,3 +3,4 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title
 gems:
   - octopress-paginate
+paginate: 3
