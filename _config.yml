@@ -1,3 +1,4 @@
 name: Orso Hypatos, the Gluttonous Bear
 markdown: kramdown
 permalink: /:year/:month/:day/:title
+paginate: 3
