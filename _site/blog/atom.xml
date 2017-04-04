@@ -4,7 +4,7 @@
 	<title>Orso Hypatos, the Gluttonous Bear</title>
 	<link href="http://gluttonousbear.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://gluttonousbear.github.io/blog"/>
-	<updated>2017-04-04T19:53:17+03:00</updated>
+	<updated>2017-04-04T21:42:12+03:00</updated>
 	<id>http://gluttonousbear.github.io</id>
 	<author>
 		<name>Orso Hypatos, the GLuttonous Bear</name>
@@ -1140,8 +1140,6 @@
 			<updated>2017-03-28T00:00:00+03:00</updated>
 			<id>http://gluttonousbear.github.io/2017/03/28/red-pesto-and-rucola-pasta-salad</id>
 			<content type="html">		&lt;!-- BEGINNING OF INDIVIDUAL PAGE CONTENT --&gt;
-
-		
 			&lt;section class=&quot;ingredients&quot;&gt;
 				 &lt;code class=&quot;ingredients&quot;&gt;
 					&lt;h4&gt;Ingredients (4 Servings)&lt;/h4&gt;
@@ -1323,7 +1321,6 @@
 			<updated>2017-03-25T00:00:00+02:00</updated>
 			<id>http://gluttonousbear.github.io/2017/03/25/hail-satan-deviled-eggs</id>
 			<content type="html">		&lt;!-- BEGINNING OF INDIVIDUAL PAGE CONTENT --&gt;
-
 			&lt;section class=&quot;ingredients&quot;&gt;
 				 &lt;code class=&quot;ingredients&quot;&gt;
 					&lt;h4&gt;Ingredients (1 Serving)&lt;/h4&gt;
@@ -1422,7 +1419,7 @@
 				&lt;/code&gt;
 
 				&lt;br /&gt;
-				&lt;script src=&quot;https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js&quot;&gt;&lt;/script&gt;
+					&lt;script src=&quot;https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js&quot;&gt;&lt;/script&gt;
 				
 				&lt;canvas id=&quot;myChart&quot;&gt;&lt;/canvas&gt;
 					&lt;script&gt;
@@ -1458,6 +1455,7 @@
 							}
 						});
 					&lt;/script&gt;
+					&lt;br /&gt;
 			&lt;/section&gt;
 
 			&lt;section class=&quot;post-text&quot;&gt;

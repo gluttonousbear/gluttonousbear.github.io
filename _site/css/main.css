@@ -260,7 +260,7 @@ section.ingredients {
 span.thumbnail-text {
 	padding:4px;
 	position:absolute;
-	font-weight:bold;
+
 	font-size:125%;
 	display:block;
 	color: white;
@@ -269,6 +269,8 @@ span.thumbnail-text {
 	width:280px;
 	margin-left:20px;
 	margin-top:-35px;
+	background:rgba(50, 50, 50, 0.7);
+
 
 }
 section.thumbnail-collection {
@@ -288,3 +290,11 @@ a.thumbnail {
 img.thumbnail {
 	width:320px;
 }
+div.thumbnail-calories {
+	position:absolute;
+	display:block;
+	width:80px;
+	margin-left:255px;
+	margin-top:-200px;
+}
+

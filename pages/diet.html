@@ -6,22 +6,58 @@ title: Recipes to be less fat
 <br />
 
 <section class="thumbnail-collection">
-	{% assign intarray = "1,2,3,4,5" | split: ',' %}
-	{% assign chararray = "c,d,e" | split: ',' %}
 	
 	{% for post in site.posts %}
 		{% if post.category == "Diet" %}
-		<section class="thumbnail">
+			<section class="thumbnail">
 			<code>
-				<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts"/>
-					<span class="thumbnail-text" style="  
-						background-color:#{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }};">
-					{{ post.title }}</span> </a>
+				<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts" />
+					<span class="thumbnail-text">
+					{{ post.title }}</span> <!-- START OF thumbnail-calories-div -->
+				<div class="thumbnail-calories">
+				<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
+				<canvas id="myChart{{ forloop.index }}"></canvas>
+					<script>
+						var ctx{{ forloop.index }} = document.getElementById("myChart{{ forloop.index }}");
+						var myChart = new Chart(ctx{{ forloop.index }}, {
+							type: 'doughnut',
+							data: {
+								labels: ["fats", "carbs", "protein"],
+								datasets: [{
+									data: [{{ post.fats }},{{ post.carbs }},{{ post.protein }}],
+								   backgroundColor: [
+											"#1b4888",
+											"#e12929",
+											"#d9a41d"
+										],
+										hoverBackgroundColor: [
+											"#2c5999",
+											"#f23a3a",
+											"#eab52e"
+										],
+										borderColor: [
+											"#111111",
+											"#111111",
+											"#111111"
+									],
+									borderWidth: 1.5
+								}]
+							},
+							options: {
+							legend: {
+									display: false
+									}
+							}
+						});
+					</script>
+				</div>
+				<!-- END OF thumbnail-calories-div --></a>
+				<!-- #{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }}; -->
+				
 				
 			</code>
+			
 		</section>
-
-    
 		{% endif %}
 	{% endfor %}
 
