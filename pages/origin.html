@@ -9,13 +9,19 @@ paginate: true
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+ {% if post.category == "Test" %}
+	<!-- do nothing -->
+	{% else %}
+		<section class="thumbnail">
+			<code>
+				<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts" />
+					<span class="thumbnail-text" style="  
+						background-color:#{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }};">
+					{{ post.title }}</span> </a>
+				
+			</code>
+		</section>
+	{% endif %}
 {% endfor %}
 
 <!-- Pagination links -->
