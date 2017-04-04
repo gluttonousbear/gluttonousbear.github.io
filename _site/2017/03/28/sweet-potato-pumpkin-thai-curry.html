@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+	<html>
+			<head>
+			<title>Sweet-potato and pumpkin Thai curry</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+		</head>
+
+		<div id="div-header">
+		<!-- NAVIGATION BAR -->
+					<nav class="sections">
+						<ul class="sections">
+							<li class="sections"><a class="sections" href="/pages/diet.html">Diet</a></li>
+							<li class="sections"><a class="sections" href="/pages/gluttony.html">Gluttony</a></li>
+							<li class="sections"><a class="sections" href="/pages/origin.html">Origin</a></li>
+							<li class="sections"><a class="sections" href="/pages/guests.html">Guest Hall of Fame</a></li>
+							<li class="sections" style=float:right;><a class="sections" href="#search">search</a></li>
+						</ul>
+					</nav>
+
+		</div>
+		
+
+
+<div class="content">
+	<h1>Sweet-potato and pumpkin Thai curry</h1>
+<p class="meta">28 Mar 2017</p>
+
+  		<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
+
+		
+			<section class="ingredients">
+				 <code class="ingredients">
+					<h4>Ingredients (2 Servings)</h4>
+					400g <b>chicken breast</b> or <b>lean beef</b><br />
+					250g <b>sweet potato</b><br />
+					300g <b>hokkaido pumpkin</b><br />
+					400ml <b>coconut milk</b><br />
+					1 medium <b>onion</b><br />
+					2 <b>bell peppers</b> red or yellow<br />
+					a handful of <b>fresh cilantro</b><br />
+					10ml <b>coconut oil</b> OR <b>other oil</b><br />
+					<h4>Spices</h4>
+					 4 cloves of <b>garlic</b><br />
+					<b>habanero</b> OR <b>other chili</b><br />
+					<b>kurkuma</b><br />
+					<b>cumin</b><br />
+					<b>ginger</b><br />
+					yellow <b>curry paste</b> OR <b>curry spice blend</b><br />
+					<b>vegetable stock</b><br />
+					<b>salt and pepper</b> to taste<br />
+				</code>
+				
+				<br />
+				<code class="calories">
+					<div id="nutritionfacts">
+						<table width="242" cellspacing="0" cellpadding="0">
+							<tbody>
+								<tr>
+									<td align="center" class="header">Nutrition Values</td>
+								</tr>
+								<tr>
+									<td><div class="serving">Per <span class="highlighted">880g</span> Serving Size</div></td>
+								</tr>
+								<tr style="height: 7px">
+									<td bgcolor="#000000"></td>
+								</tr>
+							 
+								<tr>
+									<td>
+										<div class="line">
+										<div class="label">kcal <div class="weight">885</div></div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><div class="line"></div></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="line">
+										<div class="label" style="color:#1b4888;border:3px solid #1b4888;border-top:none;border-left:none;border-right:none;margin-bottom:3px;">Total Fat&#160;</div><div class="weight">44.9g</div></div>
+									</td>
+								</tr>
+											<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight" >Saturated Fat <div class="weight">n/a</div></div>
+										</div>
+									</td>
+								</tr>
+											<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight"><i>Trans</i> Fat <div class="weight">n/a</div></div>
+										</div>
+									</td>
+							   
+											<tr>
+									<td>
+										<div class="line">
+										<div class="label">Sodium <div class="weight">345mg</div></div>
+										</div>
+									</td>
+								</tr>
+											<tr>
+									<td>
+										<div class="line">
+										<div class="label" style="color:#e12929;border:3px solid #e12929;border-top:none;border-left:none;border-right:none;margin-bottom:3px">Total Carbohydrates&#160;</div><div class="weight" style="color:black">58.6g</div></div>
+									</td>
+								</tr>
+										<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight">Sugars <div class="weight">24.2g</div></div>
+										</div>
+									</td>
+								</tr>
+								
+											<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight">Dietary Fiber <div class="weight">24.4g</div></div>
+									</div></td>
+								</tr>
+									
+											<tr>
+									<td>
+										<div class="line">
+										<div class="label" style="color:#d9a41d;border:3px solid #d9a41d;border-top:none;border-left:none;border-right:none;margin-bottom:3px">Protein&#160;</div><div class="weight">57.7g</div>
+									</div></td>
+								</tr>
+								<tr style="height: 7px">
+									<td bgcolor="#000000"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+				</code>
+
+				<br />
+				<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
+				
+				<canvas id="myChart"></canvas>
+					<script>
+						var ctx = document.getElementById("myChart");
+						var myChart = new Chart(ctx, {
+							type: 'pie',
+							data: {
+								labels: ["fats", "carbs", "protein"],
+								datasets: [{
+									data: [44.9,58.6,57.7],
+								   backgroundColor: [
+											"#1b4888",
+											"#e12929",
+											"#d9a41d"
+										],
+										hoverBackgroundColor: [
+											"#2c5999",
+											"#f23a3a",
+											"#eab52e"
+										],
+										borderColor: [
+											"#111111",
+											"#111111",
+											"#111111"
+									],
+									borderWidth: 1.5
+								}]
+							},
+							options: {
+							legend: {
+									display: false
+									}
+							}
+						});
+					</script>
+				<br />
+			</section>
+
+			<section class="post-text">
+			  <code class ="post-text">
+					<br />
+				  	In Autumn of 2015 I went to the supermarket and saw a beautiful hokkaido pumpkin. I figured I could make a soup, but then again,
+				  soups can not really be counted as a full meal. (There are exceptions, but I generally don't feel satiated after spooning a
+				  liquid :P). In the end, I just picked up random groceries I liked, and figures I could stir them together with coconut milk. The result 
+				  was surprisingly good. This recipe does not require rice, since the pumpkin and potato provide plenty of carbs<br />
+					
+				  <h5>Preparation</h5>Get 1 liter of water boiling in a pot. Add vegetable stock. Cut up sweet potato and pumpkin into cubes approximately 
+				  the size of rolling dice. Personally, I dump the  interior of the pumpkin but if you want to keep it for a soup, do it. Add sweet 
+				  potato to the boiling water, 3 minutes later add pumpkin. Meanwhile fry up onion, garlic, bell peppers and chicken in the oil. 
+				  Spice with chili salt and pepper.Set aside. Once the potato and pumpkin cubes are piercable by a fork but still a bit hard on the inside, 
+				  drain the vegetable stock. Now, add curry paste to a large pot, add coconut milk and heat up until boiling. Immediately turn down the heat 
+				  to 30% and add everything (<b>except the cilantro</b>). Simmer slowly for 20 minutes. Serve with fresh cilantro and optional chili or hot
+				  sauce on top. <br /><br />
+					<img src="/images/2017-03-28-sweet-potato-pumpkin-thai-curry.jpg" alt="thai curry image" style="width:100%"/>
+				</code>
+			</section>
+
+			<section class="full-page-text">
+				<code>
+				</code>
+			</section>
+			
+			<section class ="additional-image">
+			</section>
+		
+		<br />
+
+</div>
+
+
+<footer>
+			 <ul class="footer">
+				<li class="footer"><a class ="footer" href="/">Home</a></li>
+				<li class="footer"><a class ="footer" href="/pages/about.html">About</a></li>
+				<li class="footer"><a class ="footer" href="mailto:orsohypatos@protonmail.com">Contact</a></li>
+				<li class="footer"><a class ="footer" href="http://gluttonousbear.github.io/blog/atom.xml">RSS <img id="RSS" src="http://i.imgur.com/cBlA7YZ.png" title="RSS Feed" alt="RSS"/></a></li>
+			</ul>
+		</footer>
+
+
+		
+	</html>

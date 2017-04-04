@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+	<html>
+			<head>
+			<title>Thin and crunchy Tortilla Pizza</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+		</head>
+
+		<div id="div-header">
+		<!-- NAVIGATION BAR -->
+					<nav class="sections">
+						<ul class="sections">
+							<li class="sections"><a class="sections" href="/pages/diet.html">Diet</a></li>
+							<li class="sections"><a class="sections" href="/pages/gluttony.html">Gluttony</a></li>
+							<li class="sections"><a class="sections" href="/pages/origin.html">Origin</a></li>
+							<li class="sections"><a class="sections" href="/pages/guests.html">Guest Hall of Fame</a></li>
+							<li class="sections" style=float:right;><a class="sections" href="#search">search</a></li>
+						</ul>
+					</nav>
+
+		</div>
+		
+
+
+<div class="content">
+	<h1>Thin and crunchy Tortilla Pizza</h1>
+<p class="meta">30 Mar 2017</p>
+
+  		<!-- BEGINNING OF INDIVIDUAL PAGE CONTENT -->
+
+			<section class="ingredients">
+				 <code class="ingredients">
+					<h4>Ingredients (1 Serving)</h4>
+          1 large, thick <b>tortilla</b><br />
+					250g <b>chicken</b><br />
+					250g green <b>asparagus</b> or <b>brokkoli</b><br />
+					tsp. <b>olive oil</b><br />
+          100ml <b>tomato sauce</b><br />
+          2 cloves <b>garlic</b><br />
+					1/2 <b>medium onion</b><br />
+          25g <b>cheese</b> of your choice
+					<h4>Spices</h4>
+					<b>cayenne</b><br />
+          <b>oregano</b> OR <b>basil</b><br />
+          <b>salt and pepper</b> to taste<br />
+					
+				</code>
+					 <br />
+				<code class="calories">
+					<div id="nutritionfacts">
+						<table width="242" cellspacing="0" cellpadding="0">
+							<tbody>
+								<tr>
+									<td align="center" class="header">Nutrition Values</td>
+								</tr>
+								<tr>
+									<td><div class="serving">Per <span class="highlighted">706g</span> Serving Size</div></td>
+								</tr>
+								<tr style="height: 7px">
+									<td bgcolor="#000000"></td>
+								</tr>
+							 
+								<tr>
+									<td>
+										<div class="line">
+										<div class="label">kcal <div class="weight">691</div></div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><div class="line"></div></td>
+								</tr>
+								<tr>
+									<td>
+										<div class="line">
+										<div class="label" style="color:#1b4888;border:3px solid #1b4888;border-top:none;border-left:none;border-right:none;margin-bottom:3px;">Total Fat&#160;</div><div class="weight">22.1g</div></div>
+									</td>
+								</tr>
+											<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight" >Saturated Fat <div class="weight">n/a</div></div>
+										</div>
+									</td>
+								</tr>
+											<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight"><i>Trans</i> Fat <div class="weight">n/a</div></div>
+										</div>
+									</td>
+							   
+											<tr>
+									<td>
+										<div class="line">
+										<div class="label">Sodium <div class="weight">709mg</div></div>
+										</div>
+									</td>
+								</tr>
+											<tr>
+									<td>
+										<div class="line">
+										<div class="label" style="color:#e12929;border:3px solid #e12929;border-top:none;border-left:none;border-right:none;margin-bottom:3px">Total Carbohydrates&#160;</div><div class="weight" style="color:black">43.3g</div></div>
+									</td>
+								</tr>
+										<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight">Sugars <div class="weight">4.5g</div></div>
+										</div>
+									</td>
+								</tr>
+								
+											<tr>
+									<td class="indent">
+										<div class="line">
+										<div class="labellight">Dietary Fiber <div class="weight">4.2g</div></div>
+									</div></td>
+								</tr>
+									
+											<tr>
+									<td>
+										<div class="line">
+										<div class="label" style="color:#d9a41d;border:3px solid #d9a41d;border-top:none;border-left:none;border-right:none;margin-bottom:3px">Protein&#160;</div><div class="weight">77.7g</div>
+									</div></td>
+								</tr>
+								<tr style="height: 7px">
+									<td bgcolor="#000000"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+				</code>
+
+				<br />
+				<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
+				
+				<canvas id="myChart"></canvas>
+					<script>
+						var ctx = document.getElementById("myChart");
+						var myChart = new Chart(ctx, {
+							type: 'pie',
+							data: {
+								labels: ["fats", "carbs", "protein"],
+								datasets: [{
+									data: [22.1,43.3,77.7],
+								   backgroundColor: [
+											"#1b4888",
+											"#e12929",
+											"#d9a41d"
+										],
+										hoverBackgroundColor: [
+											"#2c5999",
+											"#f23a3a",
+											"#eab52e"
+										],
+										borderColor: [
+											"#111111",
+											"#111111",
+											"#111111"
+									],
+									borderWidth: 1.5
+								}]
+							},
+							options: {
+							legend: {
+									display: false
+									}
+							}
+						});
+					</script>
+				<br />
+
+			</section>
+
+			<section class="post-text">
+			  			  <code class ="post-text">
+				<br />
+				  <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza.jpg" alt="taco pizza" style="width:32.3%"/>
+				  <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza2.jpg" alt="taco pizza" style="width:32.3%"/>
+          <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza3.jpg" alt="taco pizza" style="width:32.3%"/><br />
+		This is made quickly in 20 minutes and helps very well against short bursts of hunger. The ingredients can vary,
+           	I prefer the pizza with some fresh greens and cheddar. There is also a variant without cheese and with sauce 
+           	hollondaise instead, but it isn't as ideal for a diet.<br />
+	  <h5>Preparation</h5>
+		  Fry up meat, onions and garlic, spice with cayenne salt and pepper. Cook the asparagus or brokkoli
+		  in salt water or chicken stock until soft.
+		  Spread tomato sauce on tortilla and add oregano or basil. Top with remaining ingredients and put into the oven
+		  on 250° for 5-8 minutes or until brown and crunchy on the bottom. 
+				  <br /><br />
+				  <img src="/images/2017-03-30-thin-and-crunchy-tortilla-pizza4.jpg" alt="slow cooked chicken picture" style="width:98%"/>
+					
+				</code>
+			</section>
+
+			<section class="full-page-text">
+				<code>
+				</code>
+			</section>
+			
+			<section class ="additional-image">
+			</section>
+		
+		<br />
+
+</div>
+
+
+<footer>
+			 <ul class="footer">
+				<li class="footer"><a class ="footer" href="/">Home</a></li>
+				<li class="footer"><a class ="footer" href="/pages/about.html">About</a></li>
+				<li class="footer"><a class ="footer" href="mailto:orsohypatos@protonmail.com">Contact</a></li>
+				<li class="footer"><a class ="footer" href="http://gluttonousbear.github.io/blog/atom.xml">RSS <img id="RSS" src="http://i.imgur.com/cBlA7YZ.png" title="RSS Feed" alt="RSS"/></a></li>
+			</ul>
+		</footer>
+
+
+		
+	</html>
