@@ -84,7 +84,7 @@ li.sections {
 	float:left;
 }
 li.sections:hover {
-	background-color:grey;
+	background-color: grey;
 }
 
 a.sections {
@@ -92,7 +92,7 @@ a.sections {
 	color: white;
 	text-align: center;
 	padding: 16px;
-	text-decoration: none
+	text-decoration: none;
 
 
 }
@@ -111,6 +111,35 @@ ul.sections {
 nav.sections {
 	width:1080px;
 }
+
+img.macro-rectangle  {
+	float:left;
+	height:32px;
+	margin: 10px;
+
+}
+
+img.macro-rectangle.hover  {
+	background-color: #333;
+
+}
+p.macro-rectangle  {
+	font-weight:bold;
+	font-family: "Trebuchet MS";
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	float:left;
+	display:block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+
+}
+
 
 div.content {
 	margin:0 auto;
