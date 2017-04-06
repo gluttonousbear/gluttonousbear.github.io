@@ -80,37 +80,67 @@ ul li {
 	left:77%;
 }
 
-li.sections {
-	float:left;
-}
-li.sections:hover {
-	background-color: grey;
-}
-
-a.sections {
-	display:block;
-	color: white;
-	text-align: center;
-	padding: 16px;
-	text-decoration: none;
-
-
-}
-ul.sections {
-	font-family: "Trebuchet MS";
-	font-size:115%;
-	font-weight:bold;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-
-}
-
-nav.sections {
+nav {
 	width:1080px;
 }
+
+ul {
+    list-style-type: none;
+	width:1080px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li.nav-top, li.nav-drop  {
+	float:left;
+	position:inline;
+}
+
+li a, a.nav-drop {
+    display: inline-block;
+	font-family:"Trebuchet MS";
+	font-size:115%;
+	font-weight:bold;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.dropdown-content a {
+    color: black;
+    padding:12px;
+	font-size:115%;
+    text-decoration: none;
+	font-weight:bold;
+	background-color:white;
+    display: block;
+    text-align: left;
+}
+
+
+li.nav-top:hover, li.nav-drop:hover  {
+	background-color:#666666;
+}
+.tags:hover   {
+	color:red;
+}
+.nav-drop, .nav-top {
+	display:inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav-drop:hover .dropdown-content {
+	display:inline-block;
+}
+
 
 img.macro-rectangle  {
 	float:left;
@@ -119,7 +149,7 @@ img.macro-rectangle  {
 
 }
 
-img.macro-rectangle.hover  {
+img.macro-rectangle:hover  {
 	background-color: #333;
 
 }
@@ -127,6 +157,7 @@ p.macro-rectangle  {
 	font-weight:bold;
 	font-family: "Trebuchet MS";
 	list-style-type: none;
+	font-size:115%;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -162,7 +193,7 @@ footer {
 
 }
 ul.footer {
-
+	background-color:#eee;
 
 }
 li.footer {
