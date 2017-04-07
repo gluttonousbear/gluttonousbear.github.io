@@ -3,11 +3,12 @@ layout: category
 title: lean meat recipes for that insatiable hunger
 ---
 <h1>{{ page.title }}</h1>
-<br />
+
 
 <section class="thumbnail-collection">
-	
-	{% for post in site.posts %}
+
+  {% for post in site.posts %}
+  {% assign loop = forloop.index %}
 		{% for tag in post.tags %}
 			{% if tag == "lean meat" %}
 				<section class="thumbnail">
@@ -17,10 +18,10 @@ title: lean meat recipes for that insatiable hunger
 						{{ post.title }}</span> <!-- START OF thumbnail-calories-div -->
 					<div class="thumbnail-calories">
 					<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
-					<canvas id="myChart{{ forloop.index }}"></canvas>
+					<canvas id="myChart{{ loop }}"></canvas>
 						<script>
-							var ctx{{ forloop.index }} = document.getElementById("myChart{{ forloop.index }}");
-							var myChart = new Chart(ctx{{ forloop.index }}, {
+							var ctx{{ loop }} = document.getElementById("myChart{{ loop }}");
+							var myChart = new Chart(ctx{{ loop }}, {
 								type: 'doughnut',
 								data: {
 									labels: ["fats", "carbs", "protein"],
