@@ -55,7 +55,7 @@ protein: 27
 		
 		<br />
 		<section class="full-page-text">
-		{% if site.disqus.gluttonousbear %}
-  {% include disqus_comments.html %}
-{% endif %}
-</section>
+			{% if site.disqus.shortname %}
+			  {% include disqus_comments.html %}
+			{% endif %}
+		</section>
