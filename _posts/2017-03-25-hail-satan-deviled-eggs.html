@@ -53,3 +53,8 @@ protein: 27
 			</section>
 		
 		<br />
+		<section class="full-page-text">
+		{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+</section>
