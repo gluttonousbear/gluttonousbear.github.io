@@ -5,3 +5,5 @@ gems:
   - octopress-paginate
 paginate: 3
 google_analytics: UA-97187823-1
+disqus:
+    shortname: gluttonousbear
