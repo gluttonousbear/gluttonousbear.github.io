@@ -13,9 +13,15 @@
 <p class="meta">{{ page.date | date_to_string }}</p>
 
   {{ content }}
+  <section class="full-page-text">
+			{% if site.disqus.shortname %}
+			  {% include disqus_comments.html %}
+			{% endif %}
+		</section>
+
 </div>
 
-
+			<br />
 {% include footer.html %}
 
 		
