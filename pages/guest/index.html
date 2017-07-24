@@ -1,14 +1,22 @@
 ---
 layout: category
 title: "The Gluttonous Hall of Fame: Guest recipes"
+paginate:
+  tag: guest
+  per_page: 9
+  limit: 5
+  permalink: /page/:num/
 ---
+
 <h1>{{ page.title }}</h1>
-<br />
+
 
 <section class="thumbnail-collection">
-	
-	{% for post in site.posts %}
-		{% if post.category == "Guest" %}
+
+  {% for post in paginator.posts %}
+  {% assign loop = forloop.index %}
+  {% for tag in post.tags %}
+	{% if tag == "guest" %}
 		<section class="thumbnail">
 			<code>
 				<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts" />
@@ -16,10 +24,10 @@ title: "The Gluttonous Hall of Fame: Guest recipes"
 					{{ post.title }}</span> <!-- START OF thumbnail-calories-div -->
 				<div class="thumbnail-calories">
 				<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
-				<canvas id="myChart{{ forloop.index }}"></canvas>
+				<canvas id="myChart{{ loop }}"></canvas>
 					<script>
-						var ctx{{ forloop.index }} = document.getElementById("myChart{{ forloop.index }}");
-						var myChart = new Chart(ctx{{ forloop.index }}, {
+						var ctx{{ loop }} = document.getElementById("myChart{{ loop }}");
+						var myChart = new Chart(ctx{{ loop }}, {
 							type: 'doughnut',
 							data: {
 								labels: ["fats", "carbs", "protein"],
@@ -61,7 +69,18 @@ title: "The Gluttonous Hall of Fame: Guest recipes"
 			</code>
 			
 		</section>
-		{% endif %}
+	{% endif %}
 	{% endfor %}
+  {% endfor %}
+  
 
 </section>
+
+
+
+
+
+
+
+
+
