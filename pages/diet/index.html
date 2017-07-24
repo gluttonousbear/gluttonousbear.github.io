@@ -1,20 +1,23 @@
 ---
-layout: category
+layout: collection
 title: Recipes to become less fat
+paginate:
+  collection: diet
+  per_page: 9
+  permalink: /page/:num/
 ---
 <h1>{{ page.title }}</h1>
 <br />
 
 <section class="thumbnail-collection">
 	
-	{% for post in site.posts %}
-		{% assign loop = forloop.index %}
-		{% if post.category == "Diet" %}
-			<section class="thumbnail">
+	{% for diet in paginator.diet %}
+
+		<section class="thumbnail">
 			<code>
-				<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts" />
+				<a class="thumbnail" href="{{ diet.url }}"><img class="thumbnail" src="{{ diet.thumbnail }}" alt="thumbnails for posts" />
 					<span class="thumbnail-text">
-					{{ post.title }}</span> <!-- START OF thumbnail-calories-div -->
+					{{ diet.title }}</span> <!-- START OF thumbnail-calories-div -->
 				<div class="thumbnail-calories">
 				<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
 				<canvas id="myChart{{ forloop.index }}"></canvas>
@@ -25,7 +28,7 @@ title: Recipes to become less fat
 							data: {
 								labels: ["fats", "carbs", "protein"],
 								datasets: [{
-									data: [{{ post.fats }},{{ post.carbs }},{{ post.protein }}],
+									data: [{{ diet.fats }},{{ diet.carbs }},{{ diet.protein }}],
 								   backgroundColor: [
 											"#1b4888",
 											"#e12929",
@@ -62,71 +65,7 @@ title: Recipes to become less fat
 			</code>
 			
 		</section>
-		{% endif %}
-	{% endfor %}
-	
-	
-	
-    {% for post in site.posts %}
-	{% assign loop2 = loop | plus: forloop.index %}
-		{% for tag in post.tags %}
-			{% if tag == "diet" %}
-				<section class="thumbnail">
-				<code>
-					<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts" />
-						<span class="thumbnail-text">
-						{{ post.title }}</span> <!-- START OF thumbnail-calories-div -->
-					<div class="thumbnail-calories">
-					<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
-					<canvas id="myChart{{ loop2 }}"></canvas>
-						<script>
-							var ctx{{ loop2 }} = document.getElementById("myChart{{ loop2 }}");
-							var myChart = new Chart(ctx{{ loop2 }}, {
-								type: 'doughnut',
-								data: {
-									labels: ["fats", "carbs", "protein"],
-									datasets: [{
-										data: [{{ post.fats }},{{ post.carbs }},{{ post.protein }}],
-									   backgroundColor: [
-												"#1b4888",
-												"#e12929",
-												"#d9a41d"
-											],
-											hoverBackgroundColor: [
-												"#2c5999",
-												"#f23a3a",
-												"#eab52e"
-											],
-											borderColor: [
-												"#111111",
-												"#111111",
-												"#111111"
-										],
-										borderWidth: 1.5
-									}]
-								},
-								options: {
-								legend: {
-										display: false
-										},
-								 tooltips: {
-									enabled: false
-								 }
-								}
-							});
-						</script>
-					</div>
-					<!-- END OF thumbnail-calories-div --></a>
-					<!-- #{{ intarray | sample }}{{ intarray | sample }}{{ chararray | sample }}; -->
-					
-					
-					</code>
-					
-				</section>
-			{% endif %}
-		{% endfor %}
-	{% endfor %}
 
-
+	{% endfor %}
 
 </section>

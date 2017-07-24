@@ -1,19 +1,23 @@
 ---
-layout: category
+layout: collection
 title: "The Gluttonous Hall of Fame: Guest recipes"
+paginate:
+  collection: guest
+  per_page: 9
+  permalink: /page/:num/
 ---
 <h1>{{ page.title }}</h1>
 <br />
 
 <section class="thumbnail-collection">
 	
-	{% for post in site.posts %}
-		{% if post.category == "Guest" %}
+	{% for guest in paginator.guest %}
+
 		<section class="thumbnail">
 			<code>
-				<a class="thumbnail" href="{{ post.url }}"><img class="thumbnail" src="{{ post.thumbnail }}" alt="thumbnails for posts" />
+				<a class="thumbnail" href="{{ guest.url }}"><img class="thumbnail" src="{{ guest.thumbnail }}" alt="thumbnails for posts" />
 					<span class="thumbnail-text">
-					{{ post.title }}</span> <!-- START OF thumbnail-calories-div -->
+					{{ guest.title }}</span> <!-- START OF thumbnail-calories-div -->
 				<div class="thumbnail-calories">
 				<script src="https://github.com/chartjs/Chart.js/releases/download/v2.5.0/Chart.js"></script>
 				<canvas id="myChart{{ forloop.index }}"></canvas>
@@ -24,7 +28,7 @@ title: "The Gluttonous Hall of Fame: Guest recipes"
 							data: {
 								labels: ["fats", "carbs", "protein"],
 								datasets: [{
-									data: [{{ post.fats }},{{ post.carbs }},{{ post.protein }}],
+									data: [{{ guest.fats }},{{ guest.carbs }},{{ guest.protein }}],
 								   backgroundColor: [
 											"#1b4888",
 											"#e12929",
@@ -61,7 +65,7 @@ title: "The Gluttonous Hall of Fame: Guest recipes"
 			</code>
 			
 		</section>
-		{% endif %}
+
 	{% endfor %}
 
 </section>

@@ -1,9 +1,27 @@
 name: Orso Hypatos, the Gluttonous Bear
 markdown: kramdown
-permalink: /:year/:month/:day/:title
 gems:
   - octopress-paginate
-paginate: 3
+paginate_path:
+  /page/:num/
 google_analytics: UA-97187823-1
 disqus:
     shortname: gluttonousbear
+collections:
+  diet:
+    output: true
+    permalink: /:collection/:path/
+  gluttony:
+    output: true
+    permalink: /:collection/:path/
+  guest:
+    output: true
+    permalink: /:collection/:path/
+  origin:
+    output: true
+    permalink: /:collection/:path/
+  vegetarian:
+    output: true
+    permalink: /:collection/:path/
+
+
